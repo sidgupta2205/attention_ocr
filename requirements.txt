@@ -1,0 +1,20 @@
+wget http://download.tensorflow.org/models/inception_v3_2016_08_28.tar.gz
+tar xf inception_v3_2016_08_28.tar.gz
+https://download.tensorflow.org/data/fsns-20160927/charset_size=134.txt
+https://download.tensorflow.org/data/fsns-20160927/test/test-00000-of-00064
+https://download.tensorflow.org/data/fsns-20160927/test/test-00063-of-00064
+https://download.tensorflow.org/data/fsns-20160927/testdata/arial-32-00000-of-00001
+https://download.tensorflow.org/data/fsns-20160927/testdata/fsns-00000-of-00001
+https://download.tensorflow.org/data/fsns-20160927/testdata/mnist-sample-00000-of-00001
+https://download.tensorflow.org/data/fsns-20160927/testdata/numbers-16-00000-of-00001
+https://download.tensorflow.org/data/fsns-20160927/train/train-00000-of-00512
+numpy
+scipy
+jupyter
+matplotlib
+Pillow
+scikit-learn
+tensorflow
+conda install -c conda-forge cudatoolkit=11.2 cudnn=8.1.0
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/
+python3 -m pip install tensorflow
